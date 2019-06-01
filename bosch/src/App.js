@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import {data} from './scans.js';
+import { data } from './scans.js';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          {JSON.stringify(data)}
-        </p>
-        
+        <p>{console.log(data[0])}</p>
       </header>
     </div>
   );
