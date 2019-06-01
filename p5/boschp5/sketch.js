@@ -1,9 +1,9 @@
 let t = 0; // time variable
-console.log(data[0]);
-
+const canvasHeight = 600;
+const canvasWidth = 1000;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(canvasWidth, canvasHeight);
   noStroke();
   fill(40, 200, 40);
 }
